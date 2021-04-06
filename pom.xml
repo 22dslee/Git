@@ -19,7 +19,8 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
         <configuration>
-          <warSourceDirectory>WebContent</warSourceDirectory>
+          <warSourceDirectory>src/main/webapp</warSourceDirectory>
+          <webxml>src/main/webapp/WEB-INF/web.xml</webxml>
         </configuration>
       </plugin>
     </plugins>
